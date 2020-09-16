@@ -18,10 +18,15 @@
   font-size: 3rem;
 }
 
-
 .keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   padding: 20px; 
+}
+
+
+button {
+  height: 60px;
+  font-size: 5em; /* 2em = 2 x 10px = 20px */
 }
