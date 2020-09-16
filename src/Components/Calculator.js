@@ -15,8 +15,17 @@ function Calculator() {//function Principal
       setResult({value: e.target.value});
     }
     
+    function clear() {//function for clear valors in calculator
+        setResult("");  //clear and set valor in zero
+      }
 
- 
+    function calculate() {// function for calculate the valor in screen of calculator
+        try { // structure try-Catch for control of errors
+          setResult(eval(result).toString()); // transformate the valor in screen string  to numbers and resolve the expresion
+         } catch (error) {
+          setResult("Error"); // if error
+        }
+      }
     return ( /*return this value*/
  
             <div>{/*screen of calculator  */}
@@ -42,7 +51,7 @@ function Calculator() {//function Principal
               <button value="." onClick={handleClick} type="button">.</button>
               
               <button  id="clear" onClick={clear} type="button" >AC</button>
-              <button id="result" onClick={} type="button">=</button>
+              <button id="result" onClick={calculate} type="button">=</button>
            </div>
 
     );
