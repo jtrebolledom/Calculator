@@ -28,12 +28,12 @@ function Calculator() {//function Principal
         }
       }
     return ( /*return this value*/
- 
+ <div>
             <div  className="calculator">{/*screen of calculator  */}
-              <input type="text"   className="screen"   value={result} ref={inputRef}   onChange={handleChange}/>
+              <input type="text"   className="screen"   value={result} ref={inputRef} onChange={handleChange} placeholder='0'/>
             </div>
              
-            <div   className="keys">{/*bottons calculator*/}
+            <div className="keys">{/*bottons calculator*/}
               <button value="+" onClick={handleClick} type="button" className="btn btn-light">+</button>
               <button value="-" onClick={handleClick} type="button" className="btn btn-light">-</button>   
               <button value="*" onClick={handleClick} type="button" className="btn btn-light">&times;</button>        
@@ -51,10 +51,10 @@ function Calculator() {//function Principal
               <button value="0" onClick={handleClick} type="button" className="btn btn-light">0</button>
               <button value="." onClick={handleClick} type="button" className="btn btn-light">.</button>
               
-              <button  id="clear" onClick={clear} type="button" >AC</button>
-              <button id="result" onClick={calculate} type="button">=</button>
+              <button  id="clear" onClick={clear} type="button" className="btn btn-danger btn-sm">AC</button>
+              <button id="result" onClick={calculate} type="button" className="equal operator btn btn-primary">=</button>
            </div>
-
+           </div>
     );
   }
   export default Calculator;

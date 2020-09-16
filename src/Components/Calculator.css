@@ -30,3 +30,8 @@ button {
   height: 60px;
   font-size: 5em; /* 2em = 2 x 10px = 20px */
 }
+
+.equal {
+    height: 98%;
+    grid-area: 2 / 4 / 6 / 5;
+  }
