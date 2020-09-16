@@ -1,4 +1,5 @@
 import React, {useState, useRef} from "react";//import vars of hook
+import "./Calculator.css";//import css
 
 function Calculator() {//function Principal
     const [result, setResult] = useState("");// def vars state 
@@ -28,8 +29,8 @@ function Calculator() {//function Principal
       }
     return ( /*return this value*/
  
-            <div>{/*screen of calculator  */}
-              <input type="text"   value={result} ref={inputRef}   onChange={handleChange}/>
+            <div  className="calculator">{/*screen of calculator  */}
+              <input type="text"   className="screen"   value={result} ref={inputRef}   onChange={handleChange}/>
             </div>
              
             <div   className="keys">{/*bottons calculator*/}
