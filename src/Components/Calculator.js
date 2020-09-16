@@ -28,7 +28,7 @@ function Calculator() {//function Principal
         }
       }
     return ( /*return this value*/
- <div>
+      <div className="calculator">
             <div  className="calculator">{/*screen of calculator  */}
               <input type="text"   className="screen"   value={result} ref={inputRef} onChange={handleChange} placeholder='0'/>
             </div>
@@ -54,7 +54,7 @@ function Calculator() {//function Principal
               <button  id="clear" onClick={clear} type="button" className="btn btn-danger btn-sm">AC</button>
               <button id="result" onClick={calculate} type="button" className="equal operator btn btn-primary">=</button>
            </div>
-           </div>
+      </div>
     );
   }
   export default Calculator;
