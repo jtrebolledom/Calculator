@@ -6,7 +6,7 @@ First calculator project for Entry test. JR
 It was requested to make a calculator with react.js and with hook .
 Simple calculator that performs simple arithmetic calculations
 
-## Start :tw-1f4bb:
+## Start 🚀
 
 To do the ReactJS installation:
 Step 1. Install NodeJS in its latest version, for that we will enter its official website and download the most updated installer https://nodejs.org/es/
@@ -71,8 +71,8 @@ Extensions:
 
 ## Thanks 🎁
  
-* I thank "23People" for the opportunity of this test applied for "Entry Dev. Full Stack" :tw-1f607:.
-* The round of "completos":tw-1f60d: is on my own 
+* I thank "23People" for the opportunity of this test applied for "Entry Dev. Full Stack.
+* The round of "completos"  is on my own .
 
 ---
 ⌨️ con ❤️ por [jtrebolledom](https://github.com/jtrebolledom) 😊
