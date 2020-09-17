@@ -7,9 +7,35 @@ First calculator project for Entry test. JR
 It was requested to make a calculator with react.js and with hook .
 Simple calculator that performs simple arithmetic calculations
 
-## Comenzando 🚀
+## Start 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+To do the ReactJS installation:
+Step 1. Install NodeJS in its latest version, for that we will enter its official website and download the most updated installer https://nodejs.org/es/
+
+Step 2. Update NPM, the node package manager, to download the most current dependencies:
+``` 
+   npm install -g npm @ latest
+```
+Step 3. Install the "Create React" app:
+```
+  npm install -g create-react-app
+```
+Now we have installed "Create React" app and we can generate a new React.js project
+To generate a new React.js project and finally install it, we will enter the directory where we want to generate the reactjs project and execute this command:
+```
+   create-react-app MyProjectName
+```
+Then we will enter our project directory and launch the local test server for React:
+```
+  cd MyProjectName
+  
+  npm start
+```
+You can check the version of React you have inside the package.json file.
+Now we will have the React 16 webapp available at http: // localhost: 3000 / and we will see our project running, with the welcome page by default.
+
+
+
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
@@ -91,6 +117,11 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+
+
+
+
+
 
 ## Contribuyendo 🖇️
 
