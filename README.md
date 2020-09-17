@@ -49,7 +49,8 @@ Now we will have the React 16 webapp available at http: // localhost: 3000 / and
 
 ## Tools 🛠️
 
-* [The React.js is version 16.13.1](https://es.reactjs.org/) - JavaScript library.
+* [Node.js is version 12.14.0](https://nodejs.org/es/) - Runtime environment for JavaScript.
+* [React.js is version 16.13.1](https://es.reactjs.org/) - JavaScript library.
 
 The extensions used are: 
 -Prettier
