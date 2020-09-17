@@ -41,7 +41,7 @@ Now we will have the React 16 webapp available at http: // localhost: 3000 / and
 
 ## Test executed ⚙️
 
-####Simple arithmetic operations:
+###Simple arithmetic operations:
 - Sum
 - Subtraction
 - Multiplication
